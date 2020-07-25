@@ -1,0 +1,52 @@
+body{ 
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('todo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+#maingreen{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 12px;
+    width: 550px;
+    height: 600px;
+    background-color: rgb(28, 82, 28) ;
+    opacity: 90%;
+    padding: 15px;  
+}
+
+#todo{
+    color: slategray;
+}
+
+#app{
+    color: rosybrown;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.editBtn , .dltBtn{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(83, 111, 139);
+    border: none;
+    width: 100px;
+}
+
+.changeColor{
+    background-color: black !important;
+    border: none !important;
+    height: 40px !important;
+}
+
+.todoTask{
+    border: 2px solid white;
+    margin: 10px;
+}
